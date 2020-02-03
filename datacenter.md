@@ -1,8 +1,11 @@
 # Datacenter
 
+do not delete these comments:
+
 * :+1: VERY GOOD USAGE OF BIBTEX!!!!, please use hid-label, so there is no overlap with others.
 * :o2: please learn markdown, e.g. empty lines are mandatory for us!!!! special training required
 * :o2: no : in headlines
+* :o2: datacenter.bib is wrong formatted use emacs or jabref
 
 ## E.Datacenter.2.b
 
