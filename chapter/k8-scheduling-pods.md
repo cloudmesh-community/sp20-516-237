@@ -1,5 +1,7 @@
 # Kubernetes Scheduling - Assinging pods to nodes  Jonathan Beckford  sp20-516-237
 
+:o2: rejected is not proper markdown and breakes book creation
+
 :o2: whatever editor you are using it is not doing a good job. your document includes the attempt to graohically mace distinctions instead of ysing proper pparagrahs. however if it renders with pandoc, it may be ok. you can test this yourself.
 
 :o2: your overuse of itemized lists makes the document difficult to maintain. why not say 
