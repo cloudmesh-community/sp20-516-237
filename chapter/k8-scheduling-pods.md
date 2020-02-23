@@ -628,7 +628,10 @@ The below details cover, first, how to setup a small kubernetes cluster on your
         kubectl describe pods
 
 
-##Professor Notes
+## Professor Notes
+
+:o2: I have no longer an idea what this means? This document does not exist
+
 Please work with:
 
 <https://github.com/cloudmesh-community/sp20-516-231/blob/master/chapter/report.md>
