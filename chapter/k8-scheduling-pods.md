@@ -2,6 +2,22 @@
 
 :o2: whatever editor you are using it is not doing a good job. your document includes the attempt to graohically mace distinctions instead of ysing proper pparagrahs. however if it renders with pandoc, it may be ok. you can test this yourself.
 
+:o2: your overuse of itemized lists makes the document difficult to maintain. why not say 
+
+*Step 1*: doing this and that
+
+```bash
+$ multipass ....
+...
+```
+
+This will result in ....
+
+```
+here is my output
+```
+
+
 
 * Jonathan Beckford
 * [sp20-516-237](https://github.com/cloudmesh-community/sp20-516-237)
