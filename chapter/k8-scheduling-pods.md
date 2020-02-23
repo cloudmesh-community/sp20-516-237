@@ -1,6 +1,6 @@
 # Kubernetes Scheduling - Assinging pods to nodes  Jonathan Beckford  sp20-516-237
 
-:o2: whatever editor you are using it is not doing a good job. your document includes the attempt to graohically mace distinctions instead of ysing proper pparagrahs
+:o2: whatever editor you are using it is not doing a good job. your document includes the attempt to graohically mace distinctions instead of ysing proper pparagrahs. however if it renders with pandoc, it may be ok. you can test this yourself.
 
 
 * Jonathan Beckford
