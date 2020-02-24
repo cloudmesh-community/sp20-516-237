@@ -1,5 +1,26 @@
 # Kubernetes Scheduling - Assinging pods to nodes  Jonathan Beckford  sp20-516-237
 
+:o2: rejected is not proper markdown and breakes book creation
+
+:o2: whatever editor you are using it is not doing a good job. your document includes the attempt to graohically mace distinctions instead of ysing proper pparagrahs. however if it renders with pandoc, it may be ok. you can test this yourself.
+
+:o2: your overuse of itemized lists makes the document difficult to maintain. why not say 
+
+*Step 1*: doing this and that
+
+```bash
+$ multipass ....
+...
+```
+
+This will result in ....
+
+```
+here is my output
+```
+
+
+
 * Jonathan Beckford
 * [sp20-516-237](https://github.com/cloudmesh-community/sp20-516-237)
 * [report](https://github.com/cloudmesh-community/sp20-516-237/blob/master/chapter/k8-scheduling-pods.md)
@@ -28,8 +49,13 @@ design your app to run across several containers within the same pod or you
 can stick to one container in one pod, it's up to the developer.  See Fig 1
 for a more detailed view of a pod.
 
+:o2: image includsin wrong, if copied, citation is missing Fig 1 wrong, please see notation.md for proper citation
+empty lines in document missing 
+
 ![Fig 1 - Pods in a Node](./images/node_pic.png)
 TODO: check to see if figure is correctly referenced in Bibtex format
+
+:o2: punctuation wrong
 
 So how does Kubernetes determine how to assign a pod, it's smallest unit of
 work, to a given node?  The main way is through the Kubernetes Scheduler
@@ -40,6 +66,8 @@ principles and other scheduler details are described in the subsequent
 section.
 
 ## Assigning Pods to Nodes - kube-scheduler
+
+:o2: indentation messed up. please learn markdown
 
 Pods can be assigned to specific nodes by administrators or deployment
  engineers but that means a lot of manual work to avoid unhealthy nodes or
@@ -628,7 +656,10 @@ The below details cover, first, how to setup a small kubernetes cluster on your
         kubectl describe pods
 
 
-##Professor Notes
+## Professor Notes
+
+:o2: I have no longer an idea what this means? This document does not exist
+
 Please work with:
 
 <https://github.com/cloudmesh-community/sp20-516-231/blob/master/chapter/report.md>
