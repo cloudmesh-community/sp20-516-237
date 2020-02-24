@@ -1,0 +1,48 @@
+
+openapi: 3.0.0
+info:
+  title: sampleFunction
+  description: Multiply int and float sample.
+  version: "1.0"
+servers:
+  - url: http://localhost/cloudmesh/sampleFunction
+    description: Optional server description, e.g. Main (production) server
+paths:
+  /sampleFunction:
+     get:
+      summary: Multiply int and float sample.
+      description: Optional extended description in CommonMark or HTML.
+      operationId: sampleFunction
+      responses:
+        '200':    # status code
+          description: Multiply int and float sample.
+          content:
+            text/plain:
+              schema: 
+                type: number
+      parameters:
+         - in: query
+           name: x
+           schema:
+             type: integer
+           description: not yet available, you can read it from docstring
+
+         - in: query
+           name: y
+           schema:
+             type: number
+           description: not yet available, you can read it from docstring 
+      
+  /users:
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        '200':    # status code
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                  type: string
