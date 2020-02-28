@@ -53,7 +53,6 @@ can stick to one container in one pod, it's up to the developer.  See [Fig 1
 empty lines in document missing 
 
 ![Fig 1 - Pods in a Node [@kubernetes_poddiag2020-sp20-516-237]](./images/node_pic.png){#fig1:sp20-516-237}
-TODO: check to see if figure is correctly referenced in Bibtex format
 
 :o2: punctuation wrong
 
