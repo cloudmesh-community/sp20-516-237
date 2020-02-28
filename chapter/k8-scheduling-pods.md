@@ -46,13 +46,13 @@ container runtimes but Docker is the most commonly used [@kubernetes_pods2020
 -sp20-516-237].  There is a one
 to many relationship between pods and containers.  Meaning that you can
 design your app to run across several containers within the same pod or you
-can stick to one container in one pod, it's up to the developer.  See Fig 1
-for a more detailed view of a pod.
+can stick to one container in one pod, it's up to the developer.  See [Fig 1
+](@fig1:sp20-516-237) for a more detailed view of a pod.
 
 :o2: image includsin wrong, if copied, citation is missing Fig 1 wrong, please see notation.md for proper citation
 empty lines in document missing 
 
-![Fig 1 - Pods in a Node](./images/node_pic.png)
+![Fig 1 - Pods in a Node [@kubernetes_poddiag2020-sp20-516-237]](./images/node_pic.png){#fig1:sp20-516-237}
 TODO: check to see if figure is correctly referenced in Bibtex format
 
 :o2: punctuation wrong
