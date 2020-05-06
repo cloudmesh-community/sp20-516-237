@@ -20,6 +20,9 @@
 
 
 3. Start up VM
+```cms key delete jonathan --cloud=chameleon```
+```cms key add jb_sshkey --source=~//.ssh//id_rsa.pub```
+
 
 4. Try to run shell commands on VM
 
